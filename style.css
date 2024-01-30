@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.top{
+    height: 476px;
+    width: 90vw;
+    background-color: black;
+}
+.box{
+    display: flex;
+    margin-top: 70px;
+}
+.box img{
+    margin-top: -10px;
+    margin-left:-25px ;
+    position: relative;
+
+}
+.box h2{
+color: white;
+position: absolute;
+top: 30%;
+left: 50%;
+font-size: 46px;
+}
+.upper-img{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.upper-img img{
+    height: 60px;
+    
+}
+span{
+    color: red;
+}
+/* .crow-2{
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    
+} */
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 150px;
+
+}
+.gif{
+    height: 200px;
+    border-radius: 10px;
+}
+.about{
+    color: beige;
+    font-size: 22px;
+}
+.skills{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,220px);
+    gap: 50px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.skill-1{
+    display: flex;
+    color: beige;
+    /* width: 300px; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    height: 340px;
+    box-shadow: 2px 2px 10px red;
+    border-radius: 10px;
+
+}
+.sharingan{
+    height: 120px;
+    width: 180px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.sharingan:hover{
+ cursor: pointer;
+ transform: scale(1.2);
+
+}
+
+.skill-p{
+    margin-top: 50px;
+}
+ .head{
+    color: red;
+    margin-top: 30px;
+ }
+ .tittle{
+    grid-area: 1/1/2/4;
+    color: rgb(239, 49, 49);
+    font-size: 70px;
+    margin-top: 50px;
+ }
+.footer{
+    width: 93vw;
+    background-color: rgb(249, 54, 54);
+    height: 150px;
+    color: rgb(240, 233, 223);
+    padding: 30px;
+    margin-top: 60px;
+
+}
+.footer{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.f-2 a{
+    color: white;
+    text-decoration: underline;
+
+}
+.more{
+    height: 300px;
+    /* border: 2px solid grey; */
+    margin-top:40px ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.more >.img img{
+height: 190px;
+border-radius: 5px;
+}
+h3{
+    color: beige;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.achivement{
+height: 200px;
+width: 93vw;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.para{
+    color: beige;
+    font-size: 35px;
+}
+.achivement img{
+    height: 190px;
+    border-radius: 5px;
+}
+.final-ach{
+width: 93vw;
+height: 200px;
+margin-top: 50px;
+display: flex;
+align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.final-ach h4{
+color: beige;
+}
+.final-ach img{
+    height: 200px;
+}
+@media screen and (max-width:500px){
+.box{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+}
+.box h2{
+    font-size: 35px;
+    top: 140px;
+}
+.box img{
+    height: 290px;
+    margin-left: -100px;
+}
+.lower{
+    flex-direction: column;
+gap: 90px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.about{
+    font-size: 20px;
+}
+.lower img{
+    height: 300px;
+}
+.skills{
+ display:flex ;
+ flex-direction: column;
+ width: 300px;
+}
+.more>.img img{
+    height: 130px;
+
+}
+.more h3{
+    font-size: 30px;
+    text-align: center;
+}
+.achivement{
+gap: 10px;
+
+}
+.achivement .para{
+font-size: 26px;
+
+}
+    .achivement img{
+        height: 130px;
+    }
+    .text h3 , h4{
+        font-size:20px;
+        text-align:start ;
+}
+.final-ach img{
+height: 130px;
+}
+.final-ach{
+    padding: 20px;
+}
+.footer{
+    font-size: 15px;
+    /* gap: 3px; */
+}
+.footer h3{
+    font-size: 25px;
+}
+}
+@media screen and (max-width:800px){
+    .box img{
+height: 290px;
+    }
+.skills .tittle{
+    font-size: 50px;
+    margin-left: 03px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.skill-1>img{
+    height: 300px;
+    width: 310px;   
+}
+.skill-1 > .head {
+    font-size: 26px;
+}
+.more h3{
+    font-size: 25px;
+}
+.more >.img img{
+height: 150px;
+}
+.achivement .para{
+    font-size: 24px;
+}
+.achivement img{
+    height: 150px;
+}
+.final-ach h3 , h4{
+    font-size: 20px;
+    margin-left: 3px;
+}
+}
